@@ -1,19 +1,19 @@
 # Sepulveda_Gonzalez_Angel_Alejandro_1215
 
-# Descripción:
-# Este programa solicita al usuario su apellido paterno, apellido materno, primer nombre y segundo nombre.
-# Luego muestra esta información en su formato original, y finalmente la muestra en mayúsculas.
+  # Descripción:
+  # Este programa solicita al usuario su apellido paterno, apellido materno, primer nombre y segundo nombre.
+  # Luego muestra esta información en su formato original, y finalmente la muestra en mayúsculas.
 
-# Entrada de datos
+  # Entrada de datos
 apelli_paterno = input("Apellido paterno: ")
 apelli_materno = input("Apellido materno: ")
 nombre = input("Primer nombre: ")
 nombre2 = input("Segundo nombre: ")
 
-# Guardar los datos en una lista
+  # Guardar los datos en una lista
 con = [apelli_paterno, apelli_materno, nombre, nombre2]
 
-# Imprimir los datos individuales
+  # Imprimir los datos individuales
 print("------------------------------------------------------------------------------------------------------------------------------------------------")
 print("El apellido paterno es: ", apelli_paterno)
 print("El apellido materno es: ", apelli_materno)
@@ -21,10 +21,10 @@ print("El primer nombre es: ", nombre)
 print("El segundo nombre es: ", nombre2)
 print(" ")
 
-# Mostrar la lista original
+  # Mostrar la lista original
 print("Lista original:", con)
 
-# Convertir los elementos de la lista a mayúsculas y mostrarla
+  # Convertir los elementos de la lista a mayúsculas y mostrarla
 con_mayus = [element.upper() for element in con]
 print("Lista en mayúsculas:", con_mayus)
 print("------------------------------------------------------------------------------------------------------------------------------------------------")
